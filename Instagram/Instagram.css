@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.Generalcontainer {
+    width: 100vw;
+    padding-left: 600px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.Generalcontainer .Maincontainer {
+    border: #DBD7D2 solid 1px;
+    height: 425px;
+    width: 350px;
+    padding-top: 40px;
+}
+.Generalcontainer .Maincontainer .igbox {
+    height: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Generalcontainer .Maincontainer .text {
+   width:  268px;
+   padding: 11px;
+   border: 1px solid #E5E4E2;
+   margin-left: 38px;
+   margin-top: 45px;
+   background-color: #fafafa;
+   font-size: 12px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Generalcontainer .Maincontainer .text:focus{
+    border: 1px solid #B2BEB5;
+    outline:#B2BEB5;
+}
+.Generalcontainer .Maincontainer .Password {
+   width: 268px;
+   padding: 11px;
+   border: 1px solid #E5E4E2;
+   margin-left: 38px;
+   margin-top: 7px;
+   background-color: #fafafa;
+   font-size: 12px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Generalcontainer .Maincontainer .Password:focus {
+    border: 1px solid #B2BEB5;
+    outline:#B2BEB5;
+}
+.Generalcontainer .Maincontainer .button {
+    width: 268px;
+    padding: 9px;
+    border: 1px;
+    margin-left: 38px;
+    margin-top: 13px;
+    background-color: #0866ff;
+    border-radius: 7px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.Generalcontainer .Maincontainer .or {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: #737373;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Generalcontainer .Maincontainer .or:before, .or:after{
+    width: 105px;
+    content: "";
+    border-bottom: 1px solid #dbdbdb;
+    margin: auto;
+} 
+
+.Generalcontainer .Maincontainer .or:before {
+    margin-right: 15px;
+}
+.Generalcontainer .Maincontainer .or:after {
+    margin-left: 15px;
+}
+
+
+.Generalcontainer .Maincontainer .link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.Generalcontainer .Maincontainer .img {
+    width: 18px;
+}
+.Generalcontainer .Maincontainer .login{
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+}
+.Generalcontainer .Maincontainer .pass {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #00376b;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Generalcontainer .Maincontainer .Fogort {
+    text-decoration: none;
+}
+
+.Generalcontainer .container2 {
+    border: #DBD7D2 solid 1px;
+    width: 350px;
+    height: 60px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Generalcontainer .container2 .account {
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+}
+
+.Generalcontainer .container2 .sign {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.Generalcontainer .B {
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Generalcontainer .download {
+    width: 315px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Generalcontainer .download .play {
+    width: 145px;
+    height: 40px;
+}
+.Generalcontainer .download .micro {
+    width: 120px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
